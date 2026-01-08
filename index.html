@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprende Ofimatica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<section id="entrada">
+    <h1>Bienvenido/a</h1>
+    <p>Identifícate para continuar</p>
+
+    <input type="text" id="nombreB" placeholder="Nombre del estudiante">
+    <button onclick="entrarB()">Entrar</button>
+
+    <p id="alertaB"></p>
+</section>
+
+<section id="contenidoB" style="display:none;">
+
+    <header class="banner">
+        <h1>Introduccion de Ofimática</h1>
+        <p>Aprende practicando Word, Excel y PowerPoint</p>
+        <h3 id="saludoB"></h3>
+    </header>
+
+    <nav class="menu">
+        <button onclick="mostrarB('inicioB')">Inicio</button>
+        <button onclick="mostrarB('wordB')">Word</button>
+        <button onclick="mostrarB('excelB')">Excel</button>
+        <button onclick="mostrarB('powerB')">PowerPoint</button>
+        <button onclick="mostrarB('glosarioB')">Glosario</button>
+        <button onclick="mostrarB('juegosB')">Juegos</button>
+    </nav>
+
+    <main>
+
+        <section id="inicioB" class="seccionB">
+            <h2>Inicio</h2>
+            <p>
+                La ofimática es un conjunto de herramientas digitales que se utilizan para realizar tareas académicas y administrativas de
+                manera eficiente. Aplicaciones como Word, Excel y PowerPoint permiten crear documentos, organizar información, realizar cálculos
+                 y presentar contenidos de forma clara y ordenada.
+            </p>
+            <p>
+                El uso adecuado de estas herramientas es fundamental en el ámbito educativo, ya que facilita la elaboración de trabajos, mejora
+                 la presentación de la información y optimiza el tiempo de estudio. Además, el desarrollo de habilidades en ofimática contribuye
+                  al uso responsable de la tecnología.
+            </p>
+            <p>
+                El video que se presenta a continuación introduce los conceptos básicos de la ofimática y explica la función principal de las
+                 aplicaciones más utilizadas en el entorno escolar y cotidiano.
+            </p>
+            <div style="position: relative; width: 80%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 80%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAG9mrXiyC8/T52SBHKVjTTDzgHIY8r30w/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG9mrXiyC8&#x2F;T52SBHKVjTTDzgHIY8r30w&#x2F;view?utm_content=DAG9mrXiyC8&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
+        </section>
+
+        <section id="wordB" class="seccionB">
+            <h2>Microsoft Word</h2>
+            <p>
+               Microsoft Word es un procesador de textos que permite crear y editar documentos digitales de manera sencilla y organizada. 
+               Es una de las herramientas ofimáticas más utilizadas en el ámbito educativo y profesional para la elaboración de trabajos 
+               escritos, informes, cartas y documentos formales.
+            </p>
+            <p>
+                Word ofrece diversas opciones de formato que permiten mejorar la presentación de los textos, como cambiar el tipo y tamaño 
+                de letra, aplicar negrita, cursiva, subrayado y ajustar la alineación de los párrafos. También permite insertar imágenes, 
+                tablas y encabezados para estructurar mejor la información.
+            </p>
+            <p>
+                El uso adecuado de Microsoft Word ayuda a desarrollar habilidades de redacción, orden y presentación, facilitando la 
+                comunicación escrita y el cumplimiento de normas básicas de presentación de documentos.
+            </p>
+            <img src="word.png" alt="word" width="300px" height="300px" style="display:block; margin: 20px auto;">
+        </section>
+
+        <section id="excelB" class="seccionB">
+            <h2>Microsoft Excel</h2>
+            <p>
+                Microsoft Excel es una hoja de cálculo que permite organizar, analizar y procesar información de forma eficiente. Se 
+                utiliza principalmente para trabajar con datos numéricos, realizar cálculos automáticos y presentar resultados de manera ordenada.
+            </p>
+            <p>
+                Excel funciona mediante filas y columnas que forman celdas, donde se ingresan datos como números, textos o fórmulas. A través de 
+                funciones básicas como suma, promedio y resta, es posible realizar operaciones matemáticas de manera rápida y precisa. Además, permite
+                 crear gráficos que facilitan la interpretación de la información.
+            </p>
+            <p>
+                El uso de Microsoft Excel desarrolla el pensamiento lógico y la capacidad de análisis, ya que ayuda a manejar información de forma 
+                estructurada y a tomar decisiones basadas en datos, siendo una herramienta fundamental en el ámbito educativo y cotidiano.
+            </p>
+            <img src="excel.png" alt="excel" width="300px" height="300px" style="display:block; margin: 20px auto;">
+        </section>
+
+        <section id="powerB" class="seccionB">
+            <h2>PowerPoint</h2>
+            <p>
+                Microsoft PowerPoint es una herramienta de presentaciones que permite comunicar ideas de manera visual y organizada. Se utiliza 
+                para exponer temas académicos, explicar contenidos y apoyar exposiciones mediante diapositivas claras y atractivas.
+            </p>
+            <p>
+                PowerPoint permite crear diapositivas con texto, imágenes, gráficos y videos, así como aplicar diseños, transiciones y animaciones 
+                que facilitan la comprensión del contenido. El uso adecuado de estos elementos ayuda a captar la atención del público sin sobrecargar 
+                la información.
+            </p>
+            <p>
+                El manejo correcto de Microsoft PowerPoint contribuye a mejorar la comunicación oral y visual, permitiendo presentar ideas de forma 
+                estructurada y profesional tanto en el ámbito educativo como en el uso cotidiano.
+            </p>
+            <img src="power.png" alt="power" width="300px" height="300px" style="display:block; margin: 20px auto;">
+        </section>
+
+       <section id="glosarioB" class="seccionB">
+    <h2>Glosario de Ofimática</h2>
+
+    <div class="termino">
+        <h3>Ofimática</h3>
+        <p>
+            Conjunto de herramientas digitales que permiten realizar tareas de oficina,
+            académicas y administrativas de manera eficiente.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Documento</h3>
+        <p>
+            Archivo digital que contiene información escrita, imágenes o tablas y que
+            puede ser creado y editado en programas como Word.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Procesador de textos</h3>
+        <p>
+            Programa informático que permite redactar, editar y dar formato a textos.
+            Ejemplo: Microsoft Word.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Hoja de cálculo</h3>
+        <p>
+            Aplicación que organiza información en filas y columnas y permite realizar
+            cálculos automáticos. Ejemplo: Microsoft Excel.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Celda</h3>
+        <p>
+            Espacio individual dentro de una hoja de cálculo donde se ingresan datos.
+            Se identifica por una letra y un número.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Fórmula</h3>
+        <p>
+            Operación que permite realizar cálculos automáticos en Excel, como sumas,
+            promedios o restas.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Gráfico</h3>
+        <p>
+            Representación visual de datos que facilita su comprensión mediante barras,
+            líneas o gráficos circulares.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Presentación</h3>
+        <p>
+            Conjunto de diapositivas utilizadas para exponer información de forma visual
+            y ordenada. Se crea en PowerPoint.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Diapositiva</h3>
+        <p>
+            Página individual dentro de una presentación que puede incluir texto,
+            imágenes, gráficos y videos.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Formato</h3>
+        <p>
+            Cambios visuales aplicados a un texto u objeto, como tipo de letra, tamaño,
+            color, negrita o alineación.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Estilos</h3>
+        <p>
+            Herramienta que permite aplicar formatos predefinidos para mantener un diseño
+            uniforme y ordenado en los documentos.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Archivo</h3>
+        <p>
+            Elemento digital donde se guarda información y que puede abrirse, editarse
+            y almacenarse en una computadora.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Guardar</h3>
+        <p>
+            Acción que permite conservar los cambios realizados en un archivo para evitar
+            la pérdida de información.
+        </p>
+    </div>
+
+    <div class="termino">
+        <h3>Interfaz</h3>
+        <p>
+            Parte visual de un programa que permite la interacción del usuario mediante
+            botones, menús e íconos.
+        </p>
+    </div>
+</section>
+
+        <section id="juegosB" class="seccionB">
+            <h2>Juegos Educativos</h2>
+
+            <div class="juegoB">
+                <h3>Ordenar Letras</h3>
+                <iframe allow="fullscreen; autoplay; allow-top-navigation-by-user-activation" 
+                allowfullscreen width="795" height="690" frameborder="0" 
+                src="https://es.educaplay.com/juego/27310330-conceptos_de_ofimatica_scramble.html"></iframe>
+            </div>
+
+            <div class="juegosB">
+                <h3>Conceptos de Ofimática: Empareja conceptos y descripciones</h3>
+                <iframe allow="fullscreen; autoplay; allow-top-navigation-by-user-activation" 
+                allowfullscreen width="795" height="690" frameborder="0" 
+                src="https://es.educaplay.com/juego/27310371-conceptos_de_ofimatica_empareja_conceptos_y_descripciones.html"></iframe>
+            </div>
+
+        </section>
+
+
+    </main>
+
+</section>
+
+<script src="script123.js"></script>
+</body>
+</html>
